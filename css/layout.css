@@ -1,0 +1,15 @@
+
+#main-header{
+    width: 100%;
+    height: 72px;
+}
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
+#main-content{
+    /* margin-top:126px; */
+}
+footer{
+    margin-top:4rem;
+}

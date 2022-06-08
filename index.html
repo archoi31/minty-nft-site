@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="Referrer" content="origin">
+    <meta name="referrer" contents="always">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="robots" content="index,nofollow">
+    <title>Minty</title>
+    <link rel="stylesheet" type="text/css" href="./css/default.css">
+    <link rel="stylesheet" type="text/css" href="./css/layout.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/media.css">
+
+    <!--Google font : Noto Sans KR -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+
+  
+    <script defer type="text/javascript" src="./js/main.js"></script>
+
+    <!--Google Material Icons-->
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <div id="m-open-menu">
+        <div class="menu-container" style="left: 0px;">
+            <div class="user-area">
+                <div class="lang-select">
+                    <ul>
+                        <li class="on">
+                            <p>KOR</p>
+                        </li>
+                        <li>
+                            <p>ENG</p>
+                        </li>
+                        <li>
+                            <p>CHN</p>
+                        </li>
+                    </ul>
+                </div> <!-- end lang-select -->
+
+                <a class="close-btn" href="#">
+                    <span class="material-icons">close</span>
+                </a>
+                <a href="./login.html">
+                    로그인
+                </a>
+                <a href="./signup_agree.html">
+                    회원가입
+                </a>
+
+            </div> <!-- end user-input -->
+           
+            <div class="menu-list">
+                <ul>
+                    <li class="mu-sub">
+                        <a href="./bill/bill_apply.html">공과금납부</a>
+                        <ul class="mu-sub-list">
+                            <li><a href="./bill/point_charge.html">포인트충전</a></li>
+                            <li><a href="./bill/coin_buy.html">간편구매</a></li>
+                            <li><a href="./bill/bill_apply.html">납부신청</a></li>
+                            <li><a href="./bill/bill_his.html">납부내역</a></li>
+                        </ul>
+                    </li>
+                    <li class="mu-sub">
+                        <a href="./coin/coin_deposit.html">코인서비스</a>
+                        <ul class="mu-sub-list">
+                            <li><a href="./coin/coin_deposit.html">코인입금</a></li>
+                            <li><a href="./coin/coin_withdraw.html">코인출금</a></li>
+                            <li><a href="./coin/coin_swap.html">코인전환</a></li>
+                            <li><a href="./coin/coin_staking.html">스테이킹</a></li>
+                            <li><a href="./coin/coin_payment.html">대금결제</a></li>
+                        </ul>
+                    </li>
+                    <li class="mu-sub">
+                        <a href="./point/point_withdraw.html">원화서비스</a>
+                        <ul class="mu-sub-list">
+                            <li><a href="./point/point_withdraw.html">원화출금</a></li>
+                            <li><a href="./point/point_charge.html">원화입금</a></li>
+                            <li><a href="./point/samsungpay_charge.html">삼성페이 충전</a></li>
+                        </ul>
+                    </li>
+                    <li class="mu-sub">
+                        <a href="./shop/product_list.html">쇼핑몰</a>
+                        <ul class="mu-sub-list shop">
+                            <li><a href="./shop/product_list.html">전체상품</a></li>
+                            <li><a href="./shop/product_list.html">삼성전자 특가</a></li>
+                            <li><a href="./shop/product_list.html">패션의류</a></li>
+                            <li><a href="./shop/product_list.html">패션잡화</a></li>
+                            <li><a href="./shop/product_list.html">화장품/미용</a></li>
+                            <li><a href="./shop/product_list.html">디지털/가전</a></li>
+                            <li><a href="./shop/product_list.html">가구/인테리어</a></li>
+                            <li><a href="./shop/product_list.html">출산/육아</a></li>
+                            <li><a href="./shop/product_list.html">식품</a></li>
+                            <li><a href="./shop/product_list.html">스포츠/레저</a></li>
+                            <li><a href="./shop/product_list.html">생활/건강</a></li>
+                            <li><a href="./shop/product_list.html">여행/문화</a></li>
+                        </ul>
+                    </li>
+                    <li class="mu-sub">
+                        <a href="./trans_history/coin_withdraw_his.html">거래내역</a>
+                        <ul class="mu-sub-list trans-his">
+                            <li class="dep-2"><a href="./trans_history/coin_withdraw_his.html">입출금내역</a></li>
+                            <li><a href="./trans_history/coin_withdraw_his.html">코인 출금내역</a></li>
+                            <li><a href="./trans_history/point_withdraw_his.html">원화 출금 내역</a></li>
+                            <li><a href="./trans_history/reward_his.html">리워드 입금 상세 내역</a></li>
+                            <li class="dep-2"><a href="./trans_history/coin_balance_his.html">결제내역</a></li>
+                            <li><a href="./trans_history/coin_balance_his.html">간편 거래 내역</a></li>
+                            <li><a href="./trans_history/payment_his.html">대금 결제 내역</a></li>
+                            <li><a href="./trans_history/product_payment_his.html">상품 결제 내역</a></li>
+                            <li class="dep-2"><a href="./trans_history/point_charge_his.html">포인트내역</a></li>
+                            <li><a href="./trans_history/point_charge_his.html">포인트 충전 내역</a></li>
+                            <li><a href="./trans_history/point_use_his.html">포인트 이용 내역</a></li>
+                            <li class="dep-2"><a href="./trans_history/coin_swap_his.html">코인전환내역</a></li>
+                            <li><a href="./trans_history/coin_swap_his.html">코인 전환 내역</a></li>
+                            <li><a href="./trans_history/staking_apply_his.html">스테이킹 신청내역</a></li>
+                            <li><a href="./trans_history/staking_reward_his.html">스테이킹 보상내역</a></li>
+                        </ul>
+                    </li>
+                    <li class="mu-sub">
+                        <a href="./paid_mem/paid_mem_apply.html">가맹점회원</a>
+                        <ul class="mu-sub-list">
+                            <li><a href="./paid_mem/paid_mem_apply.html">가맹점회원신청</a></li>
+                            <li><a href="./paid_mem/paid_mem_history.html">가맹점회원 전환 수수료 납부내역</a></li>
+                        </ul>
+                    </li>
+                    <li class="mu-sub">
+                        <a href="./mypage/member_info.html">마이페이지</a>
+                        <ul class="mu-sub-list">
+                            <li><a href="./mypage/member_info.html">회원정보 수정</a></li>
+                            <li><a href="./mypage/recommender_list.html">추천인명단</a></li>
+                            <li><a href="./mypage/notice_list.html">공지사항</a></li>
+                            <li><a href="./mypage/terms_conditions.html">이용약관</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div> <!-- end menu-list -->
+
+            <div class="cs-area ">
+                <p>고객센터 상담시간</p>
+                <h3>09 : 00 ~ 18 : 00</h3>
+            </div> <!-- end cs-area -->
+        </div> <!-- end menu-container -->
+    </div><!-- end m-open-menu-->
+
+    <section id="m-header">
+        <a href="./index.html" class="logo"><img src="./images/logo.png"></a>    
+        <ul >
+            <li>
+                <a href="javascript:void(0);" class="search-icon"><span class="material-icons">search</span></a>
+            </li>
+            <li>
+                <a href="./shop/cart_list.html"><span class="material-icons-outlined">shopping_cart</span></a>
+            </li>
+            <li>
+                <a href="javascript:void(0);"><img class="menu-open" src="./images/ic_menu.svg"></a>
+            </li>
+        </ul>
+    </section>
+
+    <header id="main-header" >
+        <div class="main-mu-wrap">
+            <div class="top-mu">  
+                <div class="container">
+                    <a href="javascript:void(0);" class="search-icon"><span class="material-icons">search</span>상품검색</a>
+                    <a href="./shop/cart_list.html"><span class="material-icons-outlined">shopping_cart</span>장바구니</a>
+                    <div class="lang-area">
+                        <a href="javascript:void(0);"><span class="material-icons">language</span>다국어</a>
+                        <div class="lang-list">
+                            <ul>
+                                <li class="on">
+                                    KOR
+                                </li>
+                                <li>
+                                    ENG
+                                </li>
+                                <li>
+                                    CHN
+                                </li>
+                            </ul>
+                        </div> <!-- end lang-select -->
+                    </div>
+                        <a href="./signup_agree.html">회원가입</a>
+                        <a href="./login.html" class="login-btn">로그인</a>
+                
+                </div>  <!--container-->
+            </div><!--top-mu-->
+            <div class="container">
+                <div class="mu-wrap">
+                    <a href="javascript:void(0);" class="logo"><img src="./images/logo.png"></a>
+                    <nav class="main-mu">
+                        <ul>
+                            <li>
+                                <a href="./bill/bill_apply.html">공과금납부</a>
+                                <ul class="mu-sub-list">
+                                    <li><a href="./bill/point_charge.html">포인트충전</a></li>
+                                    <li><a href="./bill/coin_buy.html">간편구매</a></li>
+                                    <li><a href="./bill/bill_apply.html">납부신청</a></li>
+                                    <li><a href="./bill/bill_his.html">납부내역</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="./coin/coin_deposit.html">코인서비스</a>
+                                <ul class="mu-sub-list">
+                                    <li><a href="./coin/coin_deposit.html">코인입금</a></li>
+                                    <li><a href="./coin/coin_withdraw.html">코인출금</a></li>
+                                    <li><a href="./coin/coin_swap.html">코인전환</a></li>
+                                    <li><a href="./coin/coin_staking.html">스테이킹</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="./point/point_withdraw.html">원화서비스</a>
+                                <ul class="mu-sub-list">
+                                    <li><a href="./point/point_withdraw.html">원화출금</a></li>
+                                    <li><a href="./point/point_charge.html">원화입금</a></li>
+                                    <li><a href="./point/samsungpay_charge.html">삼성페이 충전</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="./shop/product_list.html">쇼핑몰</a>
+                                <ul class="mu-sub-list shop">
+                                    <li><a href="./shop/product_list.html">전체상품</a></li>
+                                    <li><a href="./shop/product_list.html">삼성전자 특가</a></li>
+                                    <li><a href="./shop/product_list.html">패션의류</a></li>
+                                    <li><a href="./shop/product_list.html">패션잡화</a></li>
+                                    <li><a href="./shop/product_list.html">화장품/미용</a></li>
+                                    <li><a href="./shop/product_list.html">디지털/가전</a></li>
+                                    <li><a href="./shop/product_list.html">가구/인테리어</a></li>
+                                    <li><a href="./shop/product_list.html">출산/육아</a></li>
+                                    <li><a href="./shop/product_list.html">식품</a></li>
+                                    <li><a href="./shop/product_list.html">스포츠/레저</a></li>
+                                    <li><a href="./shop/product_list.html">생활/건강</a></li>
+                                    <li><a href="./shop/product_list.html">여행/문화</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="./trans_history/coin_withdraw_his.html">거래내역</a>
+                                <ul class="mu-sub-list trans-his">
+                                    <li class="dep-2"><a href="./trans_history/coin_withdraw_his.html">입출금내역</a></li>
+                                    <li><a href="./trans_history/coin_withdraw_his.html">코인 출금내역</a></li>
+                                    <li><a href="./trans_history/point_withdraw_his.html">원화 출금 내역</a></li>
+                                    <li><a href="./trans_history/reward_his.html">리워드 입금 상세 내역</a></li>
+                                    <li class="dep-2"><a href="./trans_history/coin_balance_his.html">결제내역</a></li>
+                                    <li><a href="./trans_history/coin_balance_his.html">간편 거래 내역</a></li>
+                                    <li><a href="./trans_history/payment_his.html">대금 결제 내역</a></li>
+                                    <li><a href="./trans_history/product_payment_his.html">상품 결제 내역</a></li>
+                                    <li class="dep-2"><a href="./trans_history/point_charge_his.html">포인트내역</a></li>
+                                    <li><a href="./trans_history/point_charge_his.html">포인트 충전 내역</a></li>
+                                    <li><a href="./trans_history/point_use_his.html">포인트 이용 내역</a></li>
+                                    <li class="dep-2"><a href="./trans_history/coin_swap_his.html">코인전환내역</a></li>
+                                    <li><a href="./trans_history/coin_swap_his.html">코인 전환 내역</a></li>
+                                    <li><a href="./trans_history/staking_apply_his.html">스테이킹 신청내역</a></li>
+                                    <li><a href="./trans_history/staking_reward_his.html">스테이킹 보상내역</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="./paid_mem/paid_mem_apply.html">가맹점회원</a>
+                                <ul class="mu-sub-list">
+                                    <li><a href="./paid_mem/paid_mem_apply.html">가맹점회원신청</a></li>
+                                    <li><a href="./paid_mem/paid_mem_history.html">가맹점회원 전환 수수료 납부내역</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="./mypage/member_info.html">마이페이지</a>
+                                <ul class="mu-sub-list">
+                                    <li><a href="./mypage/member_info.html">회원정보 수정</a></li>
+                                    <li><a href="./mypage/recommender_list.html">추천인명단</a></li>
+                                    <li><a href="./mypage/notice_list.html">공지사항</a></li>
+                                    <li><a href="./mypage/terms_conditions.html">이용약관</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav><!--main-mu-->
+                </div><!--mu-wrap-->
+            </div><!--container-->
+            <div class="sub-bg">
+            </div>
+        </div>
+    </header> <!-- end main-header -->
+
+    <div class="modal" id="popup-modal" style="display: none;">
+        <div class="modal-ct">
+            
+            <div class="head">
+                <button type="button" class="close-btn">
+                    <span class="material-icons">
+                    close
+                    </span>
+                </button>
+
+            </div>
+            <div class="contents scroll-area" >
+                <img src="./images/popup-img.jpg">
+            </div>
+            
+            
+            <div class="footer">   
+                <input type="checkbox" name="" value="오늘 하루 보지 않기">
+                <label>오늘 하루 보지 않기</label>
+            </div>
+        </div>
+    </div><!--change-account-modal-->
+    
+    <div id="main-search">
+        <div class="search-area">
+            <div class="search-inp">
+                <input type="text" placeholder="상품을 검색하세요.">
+                <span class="material-icons">search</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="main-content">
+        <section class="main-visual">
+            <div class="container">
+                <h1>코인으로 공과금을 납부하세요</h1>
+                <p>간편한 공과금 납부, 지금 바로 신청하세요.</p>
+                <button class="btn">납부신청 바로가기 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path fill="#fff" d="M20.463 13.973L16.62 9.098a.75.75 0 00-.588-.286h-1.518a.188.188 0 00-.148.305l3.382 4.29H3.563a.188.188 0 00-.188.187V15c0 .103.084.188.188.188h16.31a.75.75 0 00.59-1.215z"></path>
+                    </svg>
+                </button>
+            </div>
+        </section><!--main-visual-->
+
+        <section class="sec-01">
+            
+            <h1 class="main-tit">Wallet Service</h1>
+            <div class="container">
+                <a href="./point/point_withdraw.html">
+                    <img src="/images/ic_main_1.svg">원화출금
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path fill="#DEDEE3" d="M20.463 13.973L16.62 9.098a.75.75 0 00-.588-.286h-1.518a.188.188 0 00-.148.305l3.382 4.29H3.563a.188.188 0 00-.188.187V15c0 .103.084.188.188.188h16.31a.75.75 0 00.59-1.215z"/>
+                      </svg>
+                </a>
+                <a href="./point/point_charge.html">
+                    <img src="/images/ic_main_2.svg">원화입금
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path fill="#DEDEE3" d="M20.463 13.973L16.62 9.098a.75.75 0 00-.588-.286h-1.518a.188.188 0 00-.148.305l3.382 4.29H3.563a.188.188 0 00-.188.187V15c0 .103.084.188.188.188h16.31a.75.75 0 00.59-1.215z"/>
+                      </svg>
+                </a>
+                <a href="./coin/coin_buy.html">
+                    <img src="/images/ic_main_3.svg">HPMC 구매
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path fill="#DEDEE3" d="M20.463 13.973L16.62 9.098a.75.75 0 00-.588-.286h-1.518a.188.188 0 00-.148.305l3.382 4.29H3.563a.188.188 0 00-.188.187V15c0 .103.084.188.188.188h16.31a.75.75 0 00.59-1.215z"/>
+                      </svg>
+                </a>
+                <a href="./coin/coin_withdraw.html">
+                    <img src="/images/ic_main_4.svg">코인출금
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path fill="#DEDEE3" d="M20.463 13.973L16.62 9.098a.75.75 0 00-.588-.286h-1.518a.188.188 0 00-.148.305l3.382 4.29H3.563a.188.188 0 00-.188.187V15c0 .103.084.188.188.188h16.31a.75.75 0 00.59-1.215z"/>
+                      </svg>
+                </a>
+                <a href="./coin/coin_staking.html">
+                    <img src="/images/ic_main_5.svg">스테이킹
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path fill="#DEDEE3" d="M20.463 13.973L16.62 9.098a.75.75 0 00-.588-.286h-1.518a.188.188 0 00-.148.305l3.382 4.29H3.563a.188.188 0 00-.188.187V15c0 .103.084.188.188.188h16.31a.75.75 0 00.59-1.215z"/>
+                      </svg>
+                </a>
+                <a href="./coin/coin_swap.html">
+                    <img src="/images/ic_main_6.svg">코인전환
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path fill="#DEDEE3" d="M20.463 13.973L16.62 9.098a.75.75 0 00-.588-.286h-1.518a.188.188 0 00-.148.305l3.382 4.29H3.563a.188.188 0 00-.188.187V15c0 .103.084.188.188.188h16.31a.75.75 0 00.59-1.215z"/>
+                      </svg>
+                </a>
+        </div>
+        </section><!-- end sec-01-->
+
+        <section class="sec-02">
+            
+        <div class="container">
+            <div class="link-box">
+                <a class="link" href="javascript:void(0);">
+                    <h1>시세확인 차트보기</h1>
+                    <p>실시간 코인 시세를 확인할 수 있는 차트를 제공합니다.</p>
+                </a>
+                
+                <a class="link" href="javascript:void(0);">
+                    <h1>삼성페이 충전하기</h1>
+                    <p>삼성페이 충전카드를 발급받아 충전을 시작하세요.</p>
+                </a>
+            </div>
+            
+
+            <div class="wallet-cont">
+                <h1 class="main-tit">My Wallet </h1>
+                    
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide usdh">
+                                <h4>USDH</h4>
+                                <p>로그인 후 이용하세요.
+                                    <span>0원 (1USDH = 1,200원)</span></p>
+                            </div>
+                            <div class="swiper-slide hpmc">
+                                <h4>HPMC</h4>
+                                <p>로그인 후 이용하세요.
+                                    <span>0원 (1HPMC = 7200원)</span></p>
+                            </div>
+                            <div class="swiper-slide wref">
+                                <h4>WREF</h4>
+                                <p>로그인 후 이용하세요.
+                                    <span>0원 (1WREF = 2,000원)</span></p>
+                            </div>
+                            <div class="swiper-slide ons">
+                                <h4>옴니스</h4>
+                                <p>로그인 후 이용하세요.
+                                    <span>0원 (1옴니스 = 1,812원)</span></p>
+                            </div>
+                            <div class="swiper-slide btc">
+                                <h4>비트코인</h4>
+                                <p>로그인 후 이용하세요.
+                                    <span>0원 (1비트코인 = 54,201,996원)</span></p>
+                            </div>
+                            <div class="swiper-slide hwei">
+                                <h4>HUAWEI</h4>
+                                <p>로그인 후 이용하세요.
+                                    <span>0원 (1HUAWEI = 1,440원)</span></p>
+                            </div>
+
+                        </div><!--swiper-wrapper-->
+                        <div class="swiper-pagination"></div>
+                    </div><!-- swiper-container-->
+            </div><!-- wallet-cont-->
+        </div><!--container-->
+            
+            
+        </section><!-- sec-02-->
+        <section class="sec-03">
+            <div class="container">
+           
+                <h1 class="main-tit">Wallet Shop</h1>
+                <section class="sam-cont">
+                    
+                    <div class="txt">
+                        <h1>삼성전자 특·가·몰</h1>
+                        <span>(8월 3일부터 ~ 별도공지까지)</span>   
+                    </div>
+                    <img src="images/main_samsung.png">
+                    <p>특가몰에서 판매하고 있는 상품은 <br>
+                        시중보다 저렴한 <em>최저가로 구매</em>할 수 있습니다.</p>
+    
+                    <a href="./shop/product_list.html" class="ic_go">구매하러 가기<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path fill="#111" d="M20.463 13.973L16.62 9.098a.75.75 0 00-.588-.286h-1.518a.188.188 0 00-.148.305l3.382 4.29H3.563a.188.188 0 00-.188.187V15c0 .103.084.188.188.188h16.31a.75.75 0 00.59-1.215z"/>
+                        </svg></a>
+                    <div class="diagonal"></div>
+                </section>
+    
+                <section class="shop-cont">
+                    
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                        
+                            <div class="swiper-slide">
+                                <div class="thum-img"><img src="images/main_thum_img.png"></div>
+                                <div>
+                                    <p class="prd_name">심플한 디자인 라운드 
+                                        형식의 데일리 숄더 
+                                        크로스백</p>
+                                    <p class="prd_price"><span class="free_tag">무료배송</span> 24,798원</p>
+                                </div>
+                            </div><!--swiper-slide-->
+                            <div class="swiper-slide">
+                                <div class="thum-img"><img src="images/main_thum_img.png"></div>
+                                <div>
+                                    <p class="prd_name">심플한 디자인 라운드 
+                                        형식의 데일리 숄더 
+                                        크로스백</p>
+                                    <p class="prd_price"><span class="free_tag">무료배송</span> 24,798원</p>
+                                </div>
+                            </div><!--swiper-slide-->
+                            <div class="swiper-slide">
+                                <div class="thum-img"><img src="images/main_thum_img.png"></div>
+                                <div>
+                                    <p class="prd_name">심플한 디자인 라운드 
+                                        형식의 데일리 숄더 
+                                        크로스백</p>
+                                    <p class="prd_price"><span class="free_tag">무료배송</span> 24,798원</p>
+                                </div>
+                            </div><!--swiper-slide-->
+                            <div class="swiper-slide">
+                                <div class="thum-img"><img src="images/main_thum_img.png"></div>
+                                <div>
+                                    <p class="prd_name">심플한 디자인 라운드 
+                                        형식의 데일리 숄더 
+                                        크로스백</p>
+                                    <p class="prd_price"><span class="free_tag">무료배송</span> 24,798원</p>
+                                </div>
+                            </div><!--swiper-slide-->
+                           
+                        </div><!--swiper-wrapper-->
+                        
+                        <div class="swiper-button-prev">
+                            <img src="./images/swiper-prev.svg">
+                        </div>
+                        <div class="swiper-button-next">
+                            <img src="./images/swiper-next.svg">
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                        </div><!-- swiper-container-->
+                        
+                    </section><!--shop-cont-->
+    
+                    
+            </div><!--end container-->   
+        </section>
+
+        <section class="sec-04">
+            <div class="container">
+                <h1 class="main-tit">New & Notice</h1>
+                </h1>
+                <ul>
+                    <li>
+                        <p>HPMC 메인넷, 토큰코인 구매 및 입출금 중지</p> <span>21.09.10</span>
+                        <a href="./mypage/notice_view.html" class="ic_go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path fill="#111" d="M20.463 13.973L16.62 9.098a.75.75 0 00-.588-.286h-1.518a.188.188 0 00-.148.305l3.382 4.29H3.563a.188.188 0 00-.188.187V15c0 .103.084.188.188.188h16.31a.75.75 0 00.59-1.215z"/>
+                            </svg></a>
+                    </li>
+                    <li>
+                        <p>HPMC 메인넷, 토큰코인 구매 및 입출금 중지</p> <span>21.09.10</span>
+                        <a href="./mypage/notice_view.html" class="ic_go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path fill="#111" d="M20.463 13.973L16.62 9.098a.75.75 0 00-.588-.286h-1.518a.188.188 0 00-.148.305l3.382 4.29H3.563a.188.188 0 00-.188.187V15c0 .103.084.188.188.188h16.31a.75.75 0 00.59-1.215z"/>
+                            </svg></a>
+                    </li>
+                    <li>
+                        <p>HPMC 메인넷, 토큰코인 구매 및 입출금 중지</p> <span>21.09.10</span>
+                        <a href="./mypage/notice_view.html" class="ic_go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path fill="#111" d="M20.463 13.973L16.62 9.098a.75.75 0 00-.588-.286h-1.518a.188.188 0 00-.148.305l3.382 4.29H3.563a.188.188 0 00-.188.187V15c0 .103.084.188.188.188h16.31a.75.75 0 00.59-1.215z"/>
+                            </svg></a>
+                    </li>
+                    <li>
+                        <p>HPMC 메인넷, 토큰코인 구매 및 입출금 중지</p> <span>21.09.10</span>
+                        <a href="./mypage/notice_view.html" class="ic_go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path fill="#111" d="M20.463 13.973L16.62 9.098a.75.75 0 00-.588-.286h-1.518a.188.188 0 00-.148.305l3.382 4.29H3.563a.188.188 0 00-.188.187V15c0 .103.084.188.188.188h16.31a.75.75 0 00.59-1.215z"/>
+                            </svg></a>
+                    </li>
+                </ul>
+            </div><!--end container-->   
+        </section><!-- notice-cont-->
+        
+          
+
+    </div><!-- end main-content-->
+
+    <footer>
+        <div class="bar">
+            <div class="container">
+                <div class="contact">
+                    <p>전화문의 <em>1670-8306</em><span>(평일 오전 9시 ~ 오후 6시)</span></p>
+                    <a href="jajvascript:void(0);">카카오톡 문의하기 <img src="./images/ic_kakao.png"></a>
+                </div>
+                <ul>
+                    <li><a href="javascript:void(0)">회원정보수정</a></li>
+                    <li><a href="./mypage/terms_conditions.html#tab-2">이용약관</a></li>
+                    <li><a href="./mypage/terms_conditions.html#tab-1">개인정보처리방침</a></li>
+                    <li><a href="javascript:void(0)">추천인명단</a></li>
+                </ul>
+            </div><!-- end container -->
+        </div>
+        <div class="main-footer">
+            <div class="container">
+                <div> 
+                    <img src="./images/ft_logo.png">
+                    <p>회사명 (주) 옴니스 | 서울특별시 구로구 디지털로 26길 111, 5층 506호 | 대표 박성호 | 사업자등록번호 556-87-01177 <br>
+                        070-7822-0596 | 통신판매신고번호 제 2019-서울강남-01540호<br>
+                    </p>
+                </div>
+                <p>© 2021 OMNIS ALL RIGHTS REVERED.</p> 
+            </div><!-- end container -->
+        </div>
+    </footer>
+
+    <div class="quick_menu">
+        <ul>
+            <li class="active">
+                <a href="index.html">
+                    <img src="./images/ic_home.svg" alt="홈 아이콘">
+                    <span>홈</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:void(0);">
+                    <img src="./images/ic_shop.svg" alt="쇼핑몰 아이콘">
+                    <span>쇼핑몰</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:void(0);">
+                    <img src="./images/ic_krw.svg" alt="원화입금 아이콘">
+                    <span>원화입금</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:void(0);">
+                    <img src="./images/ic_coin.svg" alt="코인구매 아이콘">
+                    <span>코인구매</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:void(0);">
+                    <img src="./images/ic_more_horiz.svg" alt="더보기아이콘">
+                    <span>더보기</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!--end quick_menu-->
+
+</body>
+
+<script>
+    // const modalPop = document.querySelector("#popup-modal");
+    // const closePop = document.querySelector("#popup-modal .modal-ct .close-btn");
+
+    // closePop.addEventListener("click", () =>{
+    //     modalPop.style.display = "none";
+    // });
+
+</script>
+</html>
