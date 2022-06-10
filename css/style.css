@@ -7,35 +7,14 @@
     display: none;
 }
 #main-header {
-    background: rgba(0, 0, 0, 0.85);
-    border-bottom: 1px solid #68686C;
+    border-bottom: 1px solid #eee;
     z-index: 99;
     position: fixed;
     top:0;
-    height: 112px;
+    height: 80px;
 }
 #main-header .main-mu-wrap{
     position: relative;
-}
-.my-point{
-    display: flex;
-    justify-content: space-between;
-    border-right:1px solid #68686C;
-    border-left:1px solid #68686C;
-    padding:0px 10px;
-    align-items: center;
-}
-.my-point img{
-    vertical-align: middle;
-    padding-right:8px;
-}
-.my-point p{
-    font-weight: 700;
-    font-size: 15px;
-    color:#fff;
-}
-.my-point p span{
-    color:#A7A7AC;
 }
 #main-header .container{
     position: relative;
@@ -46,34 +25,49 @@
 }
 #main-header .logo{
     display: inline-block;
-    margin-right:2.4rem;
 }
 #main-header .logo img{
     vertical-align: middle;
 }
 #main-header .mu-wrap{
     display: flex;
+    height: 80px;
     justify-content: space-between;
     align-items: center;
 }
-#main-header .main-mu{
+#main-header .left-mu,
+#main-header .right-mu{
     display: inline-block;
 }
-#main-header .main-mu ul li{
+#main-header .left-mu ul li,
+#main-header .right-mu ul li{
+    vertical-align: middle;
     display:inline-block;
     position: relative;
     box-sizing: border-box;
 }
-#main-header .main-mu > ul > li > a {
-    height: 70px;
-    color: #fff;
+#main-header .left-mu > ul > li > a {
+    color: #787878;
     width:100%;
     display: block;
-    font-weight: 400;
-    font-size: 16px;
-    padding: 24px 0 24px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 8px 16px;
     text-align: right;
-    width: 140px;
+}
+#main-header .left-mu > ul > li > a.actvie{
+    color: #5ac8fa;
+}
+#main-header .right-mu ul li .search-box{
+    position: relative;
+}
+#main-header .right-mu ul li .search-box .material-icons{
+    position: absolute;
+    top:16px; left:8px;
+}
+#main-header .right-mu ul li .search-box input{
+    padding-left:40px;
+    background-color: #f3f6fb;
 }
 #main-header .main-mu > ul  li:hover > a{
     font-weight: 700;

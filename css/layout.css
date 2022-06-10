@@ -4,11 +4,11 @@
     height: 72px;
 }
 .container{
-    width: 1180px;
+    padding: 0 40px;
     margin: 0 auto;
 }
 #main-content{
-    /* margin-top:126px; */
+    margin-top:126px;
 }
 footer{
     margin-top:4rem;
