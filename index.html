@@ -23,6 +23,7 @@
 
     <!--Google Material Icons-->
     <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
 
 </head>
 
@@ -30,7 +31,7 @@
 
 
     <div id="m-open-menu">
-        <div class="menu-container" >
+        <div class="menu-container">
             <div class="btn-area">
                 <button type="button" class="close-btn">
                     <span class="material-icons">
@@ -73,11 +74,17 @@
                 <a href="javascript:void(0);" class="search-icon"><span class="material-icons">search</span></a>
             </li>
             <li>
-                <a href="javascript:void(0);" ><span class="material-icons menu-open ">
-                    menu
+                <a href="javascript:void(0);"><span class="material-icons menu-open ">
+                        menu
                     </span></a>
             </li>
         </ul>
+        <div class="search-area">
+            <div class="inp-box">
+                <span class="material-icons">search</span>
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
     </section>
 
     <header id="main-header">
@@ -118,7 +125,8 @@
 
                             </li>
                             <li>
-                                <a href="javascript:void(0)" class="pop-open"><img src="./images/unauth-avatar.png" width="48px"></a>
+                                <a href="javascript:void(0)" class="pop-open"><img src="./images/unauth-avatar.png"
+                                        width="48px"></a>
 
                             </li>
                             <li>
@@ -126,8 +134,17 @@
 
                             </li>
                             <li>
-                                <a href="javascript:void(0)"><img src="./images/language.PNG" width="48px"></a>
-
+                                <a href="javascript:void(0)" class="lang-icon">
+                                    <img src="./images/language.PNG" width="48px">
+                                    <ul class="lang-list" id="lang-list">
+                                        <li>EN</li>
+                                        <li>繁中</li>
+                                        <li>简中</li>
+                                        <li>日本語</li>
+                                        <li class="active">한국어</li>
+                                    </ul>
+                                </a>
+                                
                             </li>
                         </ul>
                     </nav>
@@ -141,7 +158,7 @@
         </div>
     </header> <!-- end main-header -->
 
-    <div class="modal" id="popup-modal" >
+    <div class="modal" id="popup-modal">
         <div class="modal-ct">
 
             <div class="head">
@@ -160,7 +177,7 @@
 
         </div>
     </div>
-    <!--change-account-modal-->
+    <!--popup-modal-->
 
 
 
@@ -208,182 +225,251 @@
 
                         </div>
                     </div>
-                    
+
                     <p class="project-num">프로젝트：1044 &nbsp; 정렬: mintyscore</p>
                     <div class="item-list">
                         <div class="item">
-                            <div class="img-box">
+                            <div class="item__01">
                                 <img src="./images/thum1.png">
                             </div>
-                            <div class="name-box">
-                                Steve Aoki
+                            <div class="item__02">
+                                <div class="left">
+                                    <img src="./images/small_logo_icon.png"> 90
+                                </div>
+                                <div class="divide"></div>
+                                <div class="right">
+                                   <img src="./images/ranking.png"> 1
+                                </div>
                             </div>
-                            <div class="like-box">
-                                <p>
-                                    <span class="material-icons">
-                                    thumb_up_off_alt
-                                    </span>
-                                    36 
-                                </p>
-                                <p>Upvote</p>
+                            <div class="item__03">
+                                <h3 class="name"> Steve Aoki</h3>
+                                <p>발행일 <span>22.6.29</span> 오후 <span>1:00</span></p>
+                                <p>가격 <span>free</span></p>
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="img-box">
-                                <img src="./images/thum2.jpeg">
-                            </div>
-                            <div class="name-box">
-                                Steve Aoki
-                            </div>
-                            <div class="like-box">
-                                <p>
-                                    <span class="material-icons">
-                                    thumb_up_off_alt
-                                    </span>
-                                    36 
-                                </p>
-                                <p>Upvote</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="img-box">
-                                <img src="./images/thum3.jpeg">
-                            </div>
-                            <div class="name-box">
-                                Steve Aoki
-                            </div>
-                            <div class="like-box">
-                                <p>
-                                    <span class="material-icons">
-                                    thumb_up_off_alt
-                                    </span>
-                                    36 
-                                </p>
-                                <p>Upvote</p>
+                            <div class="item__04">
+                                <div class="notification-box">
+                                    <p>
+                                        <span class="material-symbols-rounded">
+                                            notifications
+                                        </span>
+                                        72
+                                    </p>
+                                    <p class="txt">발행일자</p>
+                                </div>
+                                <div class="divide"></div>
+                                <div class="like-box">
+                                    <p>
+                                        <span class="material-icons">
+                                            thumb_up_off_alt
+                                        </span>
+                                        36
+                                    </p>
+                                    <p class="txt">Upvote</p>
+                                </div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="img-box">
-                                <img src="./images/thum4.jpeg">
+                            <div class="item__01">
+                                <img src="./images/thum2.png">
                             </div>
-                            <div class="name-box">
-                                Steve Aoki
+                            <div class="item__02">
+                                <div class="left">
+                                    <img src="./images/small_logo_icon.png"> 90
+                                </div>
+                                <div class="divide"></div>
+                                <div class="right">
+                                   <img src="./images/ranking.png"> 1
+                                </div>
                             </div>
-                            <div class="like-box">
-                                <p>
-                                    <span class="material-icons">
-                                    thumb_up_off_alt
-                                    </span>
-                                    36 
-                                </p>
-                                <p>Upvote</p>
+                            <div class="item__03">
+                                <h3 class="name"> Steve Aoki</h3>
+                                <p>발행일 <span>22.6.29</span> 오후 <span>1:00</span></p>
+                                <p>가격 <span>free</span></p>
+                            </div>
+                            <div class="item__04">
+                                <div class="notification-box">
+                                    <p>
+                                        <span class="material-symbols-rounded">
+                                            notifications
+                                        </span>
+                                        72
+                                    </p>
+                                    <p class="txt">발행일자</p>
+                                </div>
+                                <div class="divide"></div>
+                                <div class="like-box">
+                                    <p>
+                                        <span class="material-icons">
+                                            thumb_up_off_alt
+                                        </span>
+                                        36
+                                    </p>
+                                    <p class="txt">Upvote</p>
+                                </div>
                             </div>
                         </div>
-
                         <div class="item">
-                            <div class="img-box">
-                                <img src="./images/thum4.jpeg">
+                            <div class="item__01">
+                                <img src="./images/thum3.png">
                             </div>
-                            <div class="name-box">
-                                Steve Aoki
+                            <div class="item__02">
+                                <div class="left">
+                                    <img src="./images/small_logo_icon.png"> 90
+                                </div>
+                                <div class="divide"></div>
+                                <div class="right">
+                                   <img src="./images/ranking.png"> 1
+                                </div>
                             </div>
-                            <div class="like-box">
-                                <p>
-                                    <span class="material-icons">
-                                    thumb_up_off_alt
-                                    </span>
-                                    36 
-                                </p>
-                                <p>Upvote</p>
+                            <div class="item__03">
+                                <h3 class="name"> Steve Aoki</h3>
+                                <p>발행일 <span>22.6.29</span> 오후 <span>1:00</span></p>
+                                <p>가격 <span>free</span></p>
+                            </div>
+                            <div class="item__04">
+                                <div class="notification-box">
+                                    <p>
+                                        <span class="material-symbols-rounded">
+                                            notifications
+                                        </span>
+                                        72
+                                    </p>
+                                    <p class="txt">발행일자</p>
+                                </div>
+                                <div class="divide"></div>
+                                <div class="like-box">
+                                    <p>
+                                        <span class="material-icons">
+                                            thumb_up_off_alt
+                                        </span>
+                                        36
+                                    </p>
+                                    <p class="txt">Upvote</p>
+                                </div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="img-box">
+                            <div class="item__01">
+                                <img src="./images/thum4.png">
+                            </div>
+                            <div class="item__02">
+                                <div class="left">
+                                    <img src="./images/small_logo_icon.png"> 90
+                                </div>
+                                <div class="divide"></div>
+                                <div class="right">
+                                   <img src="./images/ranking.png"> 1
+                                </div>
+                            </div>
+                            <div class="item__03">
+                                <h3 class="name"> Steve Aoki</h3>
+                                <p>발행일 <span>22.6.29</span> 오후 <span>1:00</span></p>
+                                <p>가격 <span>free</span></p>
+                            </div>
+                            <div class="item__04">
+                                <div class="notification-box">
+                                    <p>
+                                        <span class="material-symbols-rounded">
+                                            notifications
+                                        </span>
+                                        72
+                                    </p>
+                                    <p class="txt">발행일자</p>
+                                </div>
+                                <div class="divide"></div>
+                                <div class="like-box">
+                                    <p>
+                                        <span class="material-icons">
+                                            thumb_up_off_alt
+                                        </span>
+                                        36
+                                    </p>
+                                    <p class="txt">Upvote</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item__01">
                                 <img src="./images/thum1.png">
                             </div>
-                            <div class="name-box">
-                                Steve Aoki
+                            <div class="item__02">
+                                <div class="left">
+                                    <img src="./images/small_logo_icon.png"> 90
+                                </div>
+                                <div class="divide"></div>
+                                <div class="right">
+                                   <img src="./images/ranking.png"> 1
+                                </div>
                             </div>
-                            <div class="like-box">
-                                <p>
-                                    <span class="material-icons">
-                                    thumb_up_off_alt
-                                    </span>
-                                    36 
-                                </p>
-                                <p>Upvote</p>
+                            <div class="item__03">
+                                <h3 class="name"> Steve Aoki</h3>
+                                <p>발행일 <span>22.6.29</span> 오후 <span>1:00</span></p>
+                                <p>가격 <span>free</span></p>
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="img-box">
-                                <img src="./images/thum2.jpeg">
-                            </div>
-                            <div class="name-box">
-                                Steve Aoki
-                            </div>
-                            <div class="like-box">
-                                <p>
-                                    <span class="material-icons">
-                                    thumb_up_off_alt
-                                    </span>
-                                    36 
-                                </p>
-                                <p>Upvote</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="img-box">
-                                <img src="./images/thum3.jpeg">
-                            </div>
-                            <div class="name-box">
-                                Steve Aoki
-                            </div>
-                            <div class="like-box">
-                                <p>
-                                    <span class="material-icons">
-                                    thumb_up_off_alt
-                                    </span>
-                                    36 
-                                </p>
-                                <p>Upvote</p>
+                            <div class="item__04">
+                                <div class="notification-box">
+                                    <p>
+                                        <span class="material-symbols-rounded">
+                                            notifications
+                                        </span>
+                                        72
+                                    </p>
+                                    <p class="txt">발행일자</p>
+                                </div>
+                                <div class="divide"></div>
+                                <div class="like-box">
+                                    <p>
+                                        <span class="material-icons">
+                                            thumb_up_off_alt
+                                        </span>
+                                        36
+                                    </p>
+                                    <p class="txt">Upvote</p>
+                                </div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="img-box">
-                                <img src="./images/thum4.jpeg">
+                            <div class="item__01">
+                                <img src="./images/thum1.png">
                             </div>
-                            <div class="name-box">
-                                Steve Aoki
+                            <div class="item__02">
+                                <div class="left">
+                                    <img src="./images/small_logo_icon.png"> 90
+                                </div>
+                                <div class="divide"></div>
+                                <div class="right">
+                                   <img src="./images/ranking.png"> 1
+                                </div>
                             </div>
-                            <div class="like-box">
-                                <p>
-                                    <span class="material-icons">
-                                    thumb_up_off_alt
-                                    </span>
-                                    36 
-                                </p>
-                                <p>Upvote</p>
+                            <div class="item__03">
+                                <h3 class="name"> Steve Aoki</h3>
+                                <p>발행일 <span>22.6.29</span> 오후 <span>1:00</span></p>
+                                <p>가격 <span>free</span></p>
                             </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="img-box">
-                                <img src="./images/thum4.jpeg">
-                            </div>
-                            <div class="name-box">
-                                Steve Aoki
-                            </div>
-                            <div class="like-box">
-                                <p>
-                                    <span class="material-icons">
-                                    thumb_up_off_alt
-                                    </span>
-                                    36 
-                                </p>
-                                <p>Upvote</p>
+                            <div class="item__04">
+                                <div class="notification-box">
+                                    <p>
+                                        <span class="material-symbols-rounded">
+                                            notifications
+                                        </span>
+                                        72
+                                    </p>
+                                    <p class="txt">발행일자</p>
+                                </div>
+                                <div class="divide"></div>
+                                <div class="like-box">
+                                    <p>
+                                        <span class="material-icons">
+                                            thumb_up_off_alt
+                                        </span>
+                                        36
+                                    </p>
+                                    <p class="txt">Upvote</p>
+                                </div>
                             </div>
                         </div>
                         
+
                     </div>
                 </div>
 
@@ -445,11 +531,20 @@
         </div>
     </footer>
 
+    <button type="button" id="pageTop">
+    </button>
+
 </body>
 
 <script>
+    //메인헤더 언어선택
+    const langIcon = document.querySelector('#main-header .lang-icon') 
+    const langList = document.querySelector('#lang-list') 
     
-
+    langIcon.addEventListener('click', function () {
+        console.log(langList)
+        langList.classList.toggle('show');
+    })
 
     // 모바일 메뉴 오픈
     const menuOpen = document.querySelector('.menu-open');
@@ -475,7 +570,29 @@
         popupModal.classList.remove('show');
     })
 
+    //모바일헤더 검색
+    const mSearchOpen = document.querySelector('#m-header .search-icon')
+    const mSearchArea = document.querySelector('#m-header .search-area');
 
+    mSearchOpen.addEventListener('click', function () {
+        mSearchArea.classList.toggle('active');
+    })
+
+    //탑 버튼
+    const topBtn = document.querySelector('#pageTop')
+
+    window.addEventListener('scroll', function(){
+        if(this.scrollY > 200){
+            topBtn.classList.add('on');
+        }else{
+            topBtn.classList.remove('on');
+        }
+    })
+
+    topBtn.addEventListener('click', function(e){
+        e.preventDefault();
+        window.scrollTo({top:0, behavior:'smooth'})
+    })    
 </script>
 
 </html>

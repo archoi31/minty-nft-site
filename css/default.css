@@ -18,6 +18,8 @@ html, body {
     font-size: 10px !important;
     line-height: 1.4;
     color: #51585b;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 ul {
@@ -213,19 +215,21 @@ html.scroll-hidden{
     z-index: 2;
     right: 31px;
     bottom: 24px;
-    width: 58px;
-    height: 58px;
-    border-radius: 58px;
-    border: 1px solid #DEDEE3;
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
     text-align: center;
-    line-height: 58px;
-    transition: background .5s;
-    background-color: #fff;
-    
+    line-height: 48px;
+    transition: .5s;
+    background-color:#5ac8fa;
+    display: none;
+}
+#pageTop.on{
+    display: block;
 }
 #pageTop::before{
     font-family: 'Material Icons';
     content:"\f1e0";
-    font-size: 3.2rem;
-    color:#98989C;
+    font-size: 2.4rem;
+    color:#fff;
 }
