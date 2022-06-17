@@ -540,3 +540,290 @@ footer .copy{
 #detail .item-info .info__text .issue-area button .material-symbols-rounded{
     vertical-align: middle;
 }
+#detail .item-info .info__text .price{
+    border-radius: .8rem;
+    display: flex;
+    border:1px solid #eee;   
+    margin-top:1.6rem;
+}
+#detail .item-info .info__text .price li{
+    border-right:1px solid #eee;
+    vertical-align: top;
+    flex: 1;
+    padding:1rem 1.6rem;
+}
+#detail .item-info .info__text .price li:last-child{
+    border-right:none;
+}
+#detail .item-info .info__text .price li h4{
+    font-size: 1.6rem;
+    padding-bottom: .8rem;
+}
+#detail .item-info .info__text .price li p{
+    font-size: 3.2rem;
+    font-weight: bolder;
+    color:#000;
+}
+#detail .item-info .info__text .freemint-btn{
+    border-radius: .8rem;
+    color:#5ac8fa;
+    font-weight: bold;
+    background-color: rgb(243, 246, 251);  
+    padding: .8rem 1.6rem;
+    font-size: 1.6rem;
+    margin-top: 1.6rem;;
+}
+#detail .item-detail .detail-title{
+    margin-top:2.4rem;
+    font-size:4rem;
+    font-weight:bolder;
+    color:#000;
+    padding-bottom: 1.6rem;
+}
+#detail .item-detail .total-area1{
+    display: flex;  
+    
+}
+#detail .item-detail .total-area1 .total {
+    flex:1;
+}
+#detail .item-detail .total-area1 .total.left{
+    margin-right:2.4rem;
+}
+#detail .item-detail .total-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#detail .item-detail .total-title svg{
+    vertical-align: middle;
+}
+#detail .item-detail .total-title h2{
+    color:rgb(79, 169, 209);
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+#detail .item-detail .total-title p{
+    font-size: 2.8rem;
+    font-weight: bolder;
+    color:#000;
+}
+#detail .item-detail .total-box{
+    margin-top:1.6rem;
+    border:1px solid #eee;
+    height: 200px;
+    border-radius: 1.6rem;
+}
+#detail .item-detail .total-area2{
+    margin-top:1.6rem;
+}
+#detail .item-detail .total-area2 ul li{
+    display: inline-block;
+    padding:1rem 1.6rem;
+    font-size: 1.6rem;
+    color:#739198;
+}
+#detail .item-detail .total-area2 ul li.active{
+    color:rgb(79, 169, 209);
+    font-weight: bold;
+    border-bottom: 2px solid rgb(79, 169, 209);
+}
+#detail .item-detail .news-card{
+    border:1px solid #eee;
+    border-radius: 1.6rem;
+    display: flex;
+    padding:2rem;
+    margin-bottom: 1.6rem;
+}
+#detail .item-detail .news-card .card__image{
+    width: 200px;
+    overflow: hidden;
+    border-radius:.8rem;
+}
+#detail .item-detail .news-card .card__image img{
+    width: 100%;
+}
+#detail .item-detail .news-card .card__text{
+    margin-left: 1.6rem;
+}
+#detail .item-detail .news-card .card__text .tit{
+    font-size: 2.8rem;
+    color:#000;
+    font-weight: bold;
+    padding-bottom: 1.6rem;
+}
+#detail .item-detail .news-card .card__text p{
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+}
+#detail .item-detail .news-card .card__text .date{
+    padding-top:1.6rem;
+    font-size:1.4rem;
+}
+#detail .item-detail .news-card .card__text .link a{
+    color:#5ac8fa;
+    font-weight: bold;
+}
+#detail .item-detail .banner{
+    margin:3.2rem 0;
+}
+#detail .item-detail .banner img{
+    width: 100%;
+}
+#detail .item-detail .project-list{
+    display: flex;
+    max-width: 100%;
+    flex: auto;
+    flex-direction: row;
+    overflow-x: auto;
+}
+#detail .item-detail .project-list .project{
+    margin-right:1.6rem;
+    border:1px solid #eee;
+    border-radius: .8rem;
+    margin-bottom: 1.6rem;
+}
+#detail .item-detail .project-list .project .project__image{
+    position: relative;;
+}
+#detail .item-detail .project-list .project .project__image img{
+    width: 240px;
+}
+#detail .item-detail .project-list .project .project__image .like-area{
+    width:70%;
+    bottom:-20px;
+    display: flex;
+    justify-content: space-between;
+    left:15%;
+    padding:1rem;
+    position: absolute;
+    background:rgb(243, 246, 251);
+    border:1px solid #5ac8fa;
+    align-items: center;
+    border-radius: 2.4rem;;
+}
+#detail .item-detail .project-list .project .project__image .like-area .like{
+    display: flex;
+    margin-right: .8rem;
+}
+#detail .item-detail .project-list .project .project__image .like-area img{
+    width: 24px;
+    vertical-align: middle;
+}
+#detail .item-detail .project-list .project .project__image .like-area p{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color:#739198;
+}
+#detail .item-detail .project-list .project .project__image .like-area span{
+    color:rgb(44, 185, 21);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#detail .item-detail .project-list .project .project__name{
+    display: flex;
+    padding:2.4rem 1.6rem 0.8rem 1.6rem;
+    font-size:1.6rem;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+    color:#000;
+}
+#detail .item-detail .project-list .project .project__name .coin-image{
+    border-radius: 50%;
+    width: 24px; height: 24px;
+    text-align: center;
+    border:1px solid #5ac8fa;
+    display: flex;
+    align-items: center;
+    margin-right: .8rem;
+}
+#detail .item-detail .project-list .project .project__name .coin-image img{
+    width: 70%;
+    margin:0 auto;
+}
+#detail .item-detail .project-list .project .project__day{
+    font-size: 1.4rem;
+    padding:1.2rem 1.6rem;
+}
+#detail .item-detail .project-list .project .project__day span{
+    color:#000;
+}
+#detail .buttons-wrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+#detail .buttons-wrapper button
+{
+    margin-top: .8rem;
+    font-weight: bold;
+    background-color: #5ac8fa;
+    font-size: 1.6rem;
+    color: #fff;
+    border-radius: .8rem;
+    padding:.8rem 1.6rem;
+}
+#detail .item-detail .comment-list .comment{
+    padding: 1.6rem 0;
+    border-bottom: 1px solid #eee;
+}
+#detail .item-detail .comment-list .comment .comment__cont .cont__profile{
+    display: flex;
+    align-items: center;
+}
+#detail .item-detail .comment-list .comment .comment__cont .cont__profile .profile {
+    width: 60px; height: 60px;
+    border-radius: 50%;
+    margin-right: .8rem;
+    overflow: hidden;
+}
+#detail .item-detail .comment-list .comment .comment__cont .cont__profile .profile img{
+    width:120%;
+}
+
+#detail .item-detail .comment-list .comment .comment__cont .cont__profile .profile__info .username{
+    font-size: 1.6rem;
+    color:#000;
+    padding-bottom: .4rem;
+    font-weight: bold;
+}
+#detail .item-detail .comment-list .comment .comment__cont .cont__profile .profile__info .date{
+    font-size: 1.4rem;
+    color:#888;
+}
+#detail .item-detail .comment-list .comment .comment__cont .cont{
+    font-size: 1.8rem;
+    padding:.8rem 0;
+}
+.comment__replybtn button,
+.reply-area button{
+    color:rgb(79, 169, 209);
+    padding:.4rem 1rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.comment__replybtn button svg,
+.reply-area button svg{
+    font-size: 1.4rem;
+    margin-right: .8rem;
+}
+#detail .item-detail .comment-list .comment .reply-area{
+    display: none;
+    margin-top:1.6rem;
+    background-color: rgb(243, 246, 251);
+    border-radius: .8rem;
+    padding:1rem 1.6rem;
+}
+#detail .item-detail .comment-list .comment .reply-area.show{
+    display: block;
+}
+#detail .item-detail .comment-list .comment .reply-area .hiddenbtn{
+    margin-bottom: .8rem;
+}
+#detail .item-detail .comment-list .comment .reply-area .buttons-wrapper button{
+    margin-left:1rem;
+}
+#detail .item-detail .comment-list .comment .reply-area .comment__cont{
+    border-bottom: 1px solid #ccc;
+    padding:1.6rem;
+    margin-bottom: 1.6rem;
+}
