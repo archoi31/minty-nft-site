@@ -320,6 +320,9 @@
     #chart-content .flex-wrap .left-cont .item-list .item .item__03 p{
         padding-bottom: 8px;
     }
+    #chart-content .flex-wrap .left-cont .item-list .item .item__01 .item_num .view{
+        display: none;
+    }
     #detail .item-info{
         flex-direction: column;
     }
@@ -388,6 +391,7 @@
     #detail .item-detail{
         width: calc(100% - 1.6rem);
     }
+
 }
 @media only screen and (max-width:376px) {
 

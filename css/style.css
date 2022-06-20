@@ -227,6 +227,40 @@
 #chart-content .flex-wrap .left-cont .item-list .item .item__01 img{
     width: 100%;
 }
+#chart-content .flex-wrap .left-cont .item-list .item .item__01{
+    position: relative;
+}
+#chart-content .flex-wrap .left-cont .item-list .item .item__01 .item_num{
+    position: absolute;
+    top:0; left:0;
+    padding:1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#chart-content .flex-wrap .left-cont .item-list .item .item__01 .item_num .index{
+    font-size: 1.4rem;
+    line-height: 3.2rem;
+    width: 3.2rem; height: 3.2rem;
+    border-radius: 50%;
+    font-weight: bold;
+    background-color: #fff;
+    color:#000;
+    text-align: center;
+}
+#chart-content .flex-wrap .left-cont .item-list .item .item__01 .item_num .view{
+    background-color: #00000080;
+    font-weight: bold;
+    color:#fff;
+    line-height: 3.2rem;
+    font-size: 1.4rem;
+    border-radius: 1.6rem;
+    padding:0rem 1.2rem;
+}
+#chart-content .flex-wrap .left-cont .item-list .item .item__01 .item_num .view .material-icons{
+    font-size: 1.4rem;
+    vertical-align: middle;
+}
 #chart-content .flex-wrap .left-cont .item-list .item .item__02{
     display: flex;
     justify-content: space-between;
